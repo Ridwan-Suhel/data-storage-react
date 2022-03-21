@@ -9,6 +9,7 @@ const Cosmetic = (props) => {
   const removeFromCart = (id) => {
     removeFromDb(id);
   };
+
   return (
     <div className="product">
       <h2>Buy This: {name}</h2>
